@@ -9,6 +9,7 @@ Keras-Applications==1.0.8
 Keras-Preprocessing==1.1.0
 numpydoc==0.9.1
 pandas==0.24.2
+Cython==0.29.22
 pandocfilters==1.4.2
 pickleshare==0.7.5
 Pillow==6.1.0
