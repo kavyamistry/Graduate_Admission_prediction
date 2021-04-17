@@ -7,7 +7,7 @@ model = pickle.load(open('Graduate_admission_predict_model.pickle', 'rb'))
 
 @app.route('/')
 def home():
-    return render_template('index.html')
+    return render_template('indexx.html')
 
 @app.route('/predict',methods=['POST'])
 def predict():
@@ -20,7 +20,7 @@ def predict():
 
     output = round(prediction[0], 2)
 
-    return render_template('index.html', prediction_text='The chances of admission are {} %'.format(output))
+    return render_template('indexx.html', prediction_text='The chances of admission are {} %'.format(output))
 
 
 if __name__ == "__main__":
